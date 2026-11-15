@@ -1,37 +1,101 @@
-Solidity Arithmetic Security
+# Solidity Arithmetic Security
 
-A small project about integer multiplication in Solidity.
+A Solidity project focused on signed integer multiplication and overflow checks.
 
-I wrote a function to handle signed int256 multiplication and added some test cases.
+The main goal is to understand how arithmetic operations behave with `int256` values and test different input combinations.
 
-What I tested
+## Features
 
-Positive × Positive
+- Signed integer multiplication
+- Overflow and underflow checks
+- Positive and negative input handling
+- Zero value handling
+- Edge case testing
 
-Negative × Negative
+## Project Structure
 
-Positive × Negative
+```text
+solidity-arithmetic-security/
+│
+├── CheckedMulInt.sol
+├── CheckedMulIntTest.sol
+└── README.md
+```
 
-Negative × Positive
+## Test Cases
 
-Multiplication by Zero
+The test contract covers:
 
-Integer boundary values
+- Positive × Positive
+- Negative × Negative
+- Positive × Negative
+- Negative × Positive
+- Multiplication by Zero
+- Integer boundary conditions
 
-Files
+## Environment
 
-CheckedMulInt.sol - Main contract
+- Solidity 0.8.38
+- Remix IDE
 
-CheckedMulIntTest.sol - Test functions
+## How to Run
 
-Tools
+1. Open the project in Remix IDE.
+2. Compile `CheckedMulInt.sol`.
+3. Compile `CheckedMulIntTest.sol`.
+4. Deploy `CheckedMulIntTest`.
+5. Run the test functions.
 
-Solidity 0.8.38
+## Purpose
 
-Remix IDE
+# Solidity Arithmetic Security
 
-Goal
+A Solidity project focused on signed integer multiplication and overflow checks.
 
-To learn more about Solidity arithmetic and find mistakes in overflow checks.
+The main goal is to understand how arithmetic operations behave with `int256` values and test different input combinations.
 
-This project is part of my Solidity security practice.
+## Features
+
+- Signed integer multiplication
+- Overflow and underflow checks
+- Positive and negative input handling
+- Zero value handling
+- Edge case testing
+
+## Project Structure
+
+```text
+solidity-arithmetic-security/
+│
+├── CheckedMulInt.sol
+├── CheckedMulIntTest.sol
+└── README.md
+```
+
+## Test Cases
+
+The test contract covers:
+
+- Positive × Positive
+- Negative × Negative
+- Positive × Negative
+- Negative × Positive
+- Multiplication by Zero
+- Integer boundary conditions
+
+## Environment
+
+- Solidity 0.8.38
+- Remix IDE
+
+## How to Run
+
+1. Open the project in Remix IDE.
+2. Compile `CheckedMulInt.sol`.
+3. Compile `CheckedMulIntTest.sol`.
+4. Deploy `CheckedMulIntTest`.
+5. Run the test functions.
+
+## Purpose
+
+I built this project to practice Solidity arithmetic and test how multiplication behaves with different int256 values.
