@@ -1,24 +1,37 @@
-# Solidity Arithmetic Security
+Solidity Arithmetic Security
 
-Working on Solidity arithmetic and testing.
+A small project about integer multiplication in Solidity.
 
-This repo contains a small `int256` multiplication example.
+I wrote a function to handle signed int256 multiplication and added some test cases.
 
-Things I tested:
-- Positive numbers
-- Negative numbers
-- Mixed signs
-- Zero values
-- Integer limits
+What I tested
 
-## Files
+Positive × Positive
 
-- `src/CheckedMulInt.sol` - multiplication logic
-- `test/CheckedMulIntTest.sol` - test functions
+Negative × Negative
 
-## Tools
+Positive × Negative
 
-- Solidity 0.8.38
-- Remix IDE
+Negative × Positive
 
-Still learning and testing different edge cases.
+Multiplication by Zero
+
+Integer boundary values
+
+Files
+
+CheckedMulInt.sol - Main contract
+
+CheckedMulIntTest.sol - Test functions
+
+Tools
+
+Solidity 0.8.38
+
+Remix IDE
+
+Goal
+
+To learn more about Solidity arithmetic and find mistakes in overflow checks.
+
+This project is part of my Solidity security practice.
